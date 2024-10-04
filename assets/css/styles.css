@@ -24,7 +24,7 @@ main, section {
     height: 100%;
 }
 
-h3 {
+h1 {
     font-weight: 700 !important;
     color: var(--darkGrayishBlue) !important;
 }
