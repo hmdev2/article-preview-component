@@ -113,6 +113,15 @@ div.hidden {
     cursor: pointer;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
 
     .share {
@@ -145,6 +154,10 @@ div.hidden {
     }
 
     .share-arrow {
+        display: none;
+    }
+
+    footer {
         display: none;
     }
 }
